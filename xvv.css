@@ -1,0 +1,91 @@
+.butterfly-container {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.butterfly {
+    position: absolute;
+    width: 60px; /* Tamaño más grande de la mariposa */
+    height: auto;
+    top: -30px; /* Ajusta la posición vertical */
+    right: 30px; /* Ajusta la posición horizontal */
+    animation: fly 5s infinite ease-in-out;
+}
+
+/* Animación opcional para que la mariposa se mueva ligeramente */
+@keyframes fly {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+}
+.butterfly-container-left {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.butterfly-left {
+    position: absolute;
+    width: 60px; /* Tamaño de la mariposa izquierda */
+    height: auto;
+    top: -70px; /* Ajusta la posición vertical */
+    left: 20px; /* Ajusta la posición horizontal al lado izquierdo */
+    animation: fly-left 5s infinite ease-in-out;
+}
+
+/* Animación opcional para la mariposa izquierda */
+@keyframes fly-left {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(15px);
+    }
+}
+.butterflyy-container-left {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.butterflyy-left {
+    position: absolute;
+    width: 50px; /* Tamaño de la mariposa izquierda */
+    height: auto;
+    top: -70px; /* Ajusta la posición vertical */
+    left: 20px; /* Ajusta la posición horizontal al lado izquierdo */
+    animation: fly-left 5s infinite ease-in-out;
+}
+
+/* Animación opcional para la mariposa izquierda */
+@keyframes fly-left {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(15px);
+    }
+}
+.butterflyyy-container-left {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.butterflyyy-left {
+    position: absolute;
+    width: 150px; /* Tamaño de la mariposa izquierda */
+    height: auto;
+    top: -130px; /* Ajusta la posición vertical */
+    left: -33px; /* Ajusta la posición horizontal al lado izquierdo */
+}
+
+
